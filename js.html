@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>javascript</title>
+</head>
+<body>
+    <script>
+    //資料
+    //數字
+    /*
+    //字串:任意的文字
+    "Hello World";
+    //布林值
+    true;
+    false;
+    //空值
+    null;
+    undefined;
+    */
+    // 在終端機印出資料:console.log(資料);
+    /*
+    console.log("Hello Javascript");
+    console.log(true);
+    */
+    //變數:可以用來裝資料的名字
+    //建立變數>裝資料>使用變數
+    /*
+    let y; //建立變數:let 變數名稱;
+    y=5;//裝資料:變數名稱=資料
+    console.log(y); //使用變數代替資料運作:直接寫變數名稱
+    y="hello";// 覆蓋原來資料
+    console.log(y)
+    */
+    //運算符號
+    //流程控制:判斷式、迴圈
+    //函式:基本結構、參數、回傳值
+    //物件
+
+
+    /*
+    function calc(number){
+        let result=0;
+        let n=1;
+        while(n<=number){ 
+        result=result+n;
+        n++;
+        }
+        console.log(result);
+    }
+    calc(10);
+    calc(100);
+    calc(50);
+    */
+    /*
+        建立函式
+            function 函式名稱(參數名稱列表){
+                函式內部格式區塊
+            }    
+        呼叫函式
+            函式名稱(參數資料);
+    */
+    /*
+    function add(n1,n2){
+        //console.log(n1+n2);
+        return n1+n2 ;// return 回傳值;
+    }
+    let result=add(6,4)*20;
+    console.log(result);
+
+    // let number=prompt("輸入一個正整數","");
+    */
+
+    //while 迴圈
+    /*
+        while(布林值){
+            如果布林值是true，執行這個區塊的程式碼
+            跑到最後，回到迴圈的開頭，再來一次
+        }
+    */
+    /*let n=0
+    while(n<5){
+        //console.log(n);
+        n++;
+    }
+    */
+    // 1+2+3.....+50
+    /*
+    let result=(1+50)*50/2;
+    console.log(result);
+    */
+    /*
+    let result=0;
+    let n=1;
+    while(n<=10){
+        console.log(n,result);
+        result=result+n;
+        n++;
+    }
+    console.log(result)
+    */
+    //讓使用者輸入一個數字，開根號取整數
+    //輸入 16得到4,輸入10得到【沒有答案】
+    /*let number=prompt("輸入一個正整數","");
+    let n=1
+    while(number>n){//測試 1,2,3,4,...,number-1
+        if(n*n==number){
+            console.log("答案",n,);
+            break;//在迴圈中使用break;命令，強迫結束迴圈
+        }else if(n==number-1){//測試到最後一圈，都沒有答案，才說沒有答案
+            console.log("沒有答案");
+        }
+        n++;
+        //console.log(n)
+    }
+    */
+
+
+    // if判斷式
+    /*
+        if(布林值){
+            如果布林值是true，執行這個區塊的程式碼
+        }else  if(布林值){
+            如果上方布林值是true，執行這個區塊的程式碼
+        }else{
+            如果上方布林值都是false，執行這個區塊的程式碼
+        }
+    
+    let money=prompt("要多少錢?","")
+    if(money<1000){
+        console.log("至少1000以上");
+    }else if(money<=100000){
+        console.log("OK")
+    }else{
+        console.log("低於100000")
+    }
+    */
+
+    //算術運算:+,-,*,/
+    //指定運算:=,+=,-=,*=,/=
+    /*
+    let x; //建立變數同時給資料 : let變數名稱=資料;
+    console.log(x);
+    x=3;
+    x*=2;//x=x*2
+    console.log(x);
+    //比較運算:>,<,>=,<=,==
+    x=3==4; //比較3和4是否相等
+    console.log(x);
+    //單元運算:!,++,--
+    X=!true; //反轉布林值
+    console.log(x);
+    x=2;
+    x++;//x+=1;//x=x+1;
+    console.log(x);
+    */
+    //console.log(資料);
+    //讓使用者輸入資料
+    //prompt(字串,字串);
+    /*
+    let n1=prompt("輸入一個數字","");
+    let n2=prompt("輸入第二個數字","");
+    let result=n1*n2;
+    console.log(result);
+    */
+    
+    </script>
+    
+</body>
+</html>
